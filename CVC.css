@@ -1,0 +1,150 @@
+/**Phone view**/
+
+@media(max-width:750px){
+  html{
+    background-color: black;
+  }
+  body{
+  margin:80px 5px 80px 5px;
+  border-spacing: 3px;
+  display: flex;
+  background-color: white;
+  font-size: 10px;
+  height: px;
+  font: "Time-New-ROman";
+  }
+  #profile{
+    width: 100px;
+    height: 100px;
+    border-radius: 60px;
+    margin:2px 25px 2px 25px;
+    border: 5px solid white;
+    transition: width 5s;
+  }
+  #profile:hover{
+    width:140px;
+    margin:2px 5px 2px 5px;
+  }
+  #left{
+   background-color:white;
+   padding: 50px 20px 50px 20px;
+   width:60%;
+   text-align: left;
+   color: #10142ca7;
+  }
+  #left h1{
+    font-size: 25px;
+    color:gold;
+  }
+  #left h2{
+    text-transform: capitalize;
+  }
+  #left h3{
+     text-transform: capitalize;
+     text-decoration: underline;
+  }
+  
+  #right{
+    background-color:#10142ca7;
+    width:40% ;
+    height:px ;
+    padding: 50px 15px 50px 15px;
+    text-align: ;
+    color: white;
+  }
+ #right h1{
+    color:gold;
+    text-align: center;
+    font: ;
+  }
+#right h3{
+  text-align: center;
+  font-size: 12px;
+}
+  h2{
+    color: gold;
+    text-align: left;
+  }
+  ul{
+    padding-left: 10px ;
+  }
+  #logo{
+    width:10px;
+    height:10px;
+  }
+}
+
+/**desk-top view**/
+@media(min-width:750px){
+  html{
+    background-color: black;
+  }
+  body{
+  margin:80px 5px 80px 5px;
+  border-spacing: 3px;
+  display: flex;
+  background-color: white;
+  font-size: 10px;
+  height: px;
+  font: "Time-New-Roman";
+  }
+  #profile{
+    width: 100px;
+    height: 100px;
+    border-radius: 60px;
+    margin:2px 100px 2px 125px;
+    border: 5px solid white;
+    transition: width 5s;
+  }
+  #profile:hover{
+    width:140px;
+    margin:2px 80px 2px 105px;
+  }
+  #left{
+   background-color:white;
+   padding: 50px 20px 50px 20px;
+   width:60%;
+   text-align: left;
+   color: #10142ca7;
+  }
+  #left h1{
+    font-size: 25px;
+    color:gold;
+  }
+  #left h2{
+    text-transform: capitalize;
+  }
+  #left h3{
+     text-transform: capitalize;
+     text-decoration: underline;
+  }
+  
+  #right{
+    background-color:#10142ca7;
+    width:40% ;
+    height:px ;
+    padding: 50px 15px 50px 15px;
+    text-align: ;
+    color: white;
+  }
+ #right h1{
+    color:gold;
+    text-align: center;
+    font: ;
+  }
+#right h3{
+  text-align: center;
+  font-size: 12px;
+}
+  h2{
+    color: gold;
+    text-align: left;
+  }
+  ul{
+    padding-left: 10px ;
+  }
+  #logo{
+    width:10px;
+    height:10px;
+  }
+}
